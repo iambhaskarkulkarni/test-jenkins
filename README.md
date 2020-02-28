@@ -1,2 +1,2 @@
 # test-jenkins
-Jenkin Build Test Repo
+This Reposiroty only for the testing purpose
