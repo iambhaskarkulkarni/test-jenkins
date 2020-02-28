@@ -9,6 +9,8 @@ public class EmailDTO {
 	private HttpStatus status;
 
 	private String message;
+	
+	private String test;
 
 	public String getKeyword() {
 		return keyword;
