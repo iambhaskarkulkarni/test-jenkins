@@ -11,6 +11,6 @@ public class MailController {
 
 	@GetMapping("/send-email-notification")
 	public EmailDTO sendEmail() {
-		return new EmailDTO("send-email-notificatio    test n", HttpStatus.ACCEPTED, "Email Sent From Instance 2");
+		return new EmailDTO("send-email-notification", HttpStatus.ACCEPTED, "Email Sent From Instance 2");
 	}
 }
