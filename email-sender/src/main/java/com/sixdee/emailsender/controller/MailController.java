@@ -9,7 +9,7 @@ import com.sixdee.emailsender.dto.EmailDTO;
 @RestController
 public class MailController {
 
-	@GetMapping("/send-email-notification")
+	@GetMapping("/send-email-notifications")
 	public EmailDTO sendEmail() {
 		return new EmailDTO("send-email-notification-test", HttpStatus.ACCEPTED, "Email Sent From Instance 2");
 	}
