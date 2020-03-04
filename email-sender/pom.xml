@@ -3,16 +3,16 @@
 	http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.sixdee</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent</relativePath>
 	</parent>
 	<groupId>com.sixdee</groupId>
 	<artifactId>email-sender</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>email-sender</name>
-	<description>Demo project for Spring Boot</description>
+	<description>email-sender</description>
 
 	<properties>
 		<jdk.version>1.8</jdk.version>
@@ -28,7 +28,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
